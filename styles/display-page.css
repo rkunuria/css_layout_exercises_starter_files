@@ -1,0 +1,45 @@
+main {
+	width: 800px;
+	font-size: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+.box1 {
+	background-color: green;
+}
+
+.box2 {
+	background-color: blue;
+}
+
+.parent .box {
+	height: 200px;
+	width: 50%;
+}
+
+
+.box3 {
+	background-color: gray;
+}
+
+.box4 {
+	background-color: black;
+}
+
+.box5 {
+	background-color: orange;
+}
+
+.parent2 .box {
+	height: 300px;
+	width: 33.33%;
+}
+
+.box {
+	border: 1px black solid;
+	display: inline-block;
+}
+
+
