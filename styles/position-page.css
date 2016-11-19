@@ -1,14 +1,9 @@
-* {
-	margin: 0;
-	padding: 0;
+.container {
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
-div {
-	
-}
 nav {
-	padding-right: 60px;
-	padding-left: 60px;
 	background-color: gray;
 	position: fixed;
 	width: 100%;
@@ -41,16 +36,39 @@ nav li::after {
 	margin-bottom: 5px;
 	border-radius: 50%;
 	display: inline-block;
+	vertical-align: middle;
 }
 
+main {
+	padding-top: 150px;
+}
 
 .box {
 	height: 300px;
 	width: 600px;
 	border: 10px dotted green;
-	align-content: center;
 	position: relative;
 	margin-left: auto;
-	margin-right: auto;]
-	margin-top: 150px;
+	margin-right: auto;
+}
+
+.spacedog, .spacecat {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+
+.spacecat {
+	top: -90px;
+	left: -90px;
+}
+
+.spacedog {
+	bottom: -100px;
+	right: -80px;
+}
+
+body {
+	background: url(/images/outerspace_landscape.jpeg) no-repeat;
+	background-size: cover;
 }
